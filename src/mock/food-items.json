@@ -1,0 +1,458 @@
+{
+    "foods": [
+        {
+            "id": 1,
+            "name": "Apple",
+            "nutritionalValue": {
+                "calories": 52,
+                "fat": 0.2,
+                "carbohydrates": 14,
+                "protein": 0.3,
+                "fiber": 2.4
+            },
+            "color": "red",
+            "taste": "sweet",
+            "stock": {
+                "quantity": 100,
+                "unit": "unit"
+            },
+            "price": 0.5,
+            "imageUrl": "https://images.pexels.com/photos/7214602/pexels-photo-7214602.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        },
+        {
+            "id": 2,
+            "name": "Banana",
+            "nutritionalValue": {
+                "calories": 105,
+                "fat": 0.4,
+                "carbohydrates": 27,
+                "protein": 1.3,
+                "fiber": 3.1
+            },
+            "color": "yellow",
+            "taste": "sweet",
+            "stock": {
+                "quantity": 75,
+                "unit": "unit"
+            },
+            "price": 0.6,
+            "imageUrl": "https://images.pexels.com/photos/2872755/pexels-photo-2872755.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        },
+        {
+            "id": 3,
+            "name": "Broccoli",
+            "nutritionalValue": {
+                "calories": 31,
+                "fat": 0.4,
+                "carbohydrates": 6,
+                "protein": 2.6,
+                "fiber": 2.4
+            },
+            "color": "green",
+            "taste": "bitter",
+            "stock": {
+                "quantity": 50,
+                "unit": "unit"
+            },
+            "price": 1.2,
+            "imageUrl": "https://images.pexels.com/photos/47347/broccoli-vegetable-food-healthy-47347.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        },
+        {
+            "id": 4,
+            "name": "Strawberry",
+            "nutritionalValue": {
+                "calories": 32,
+                "fat": 0.3,
+                "carbohydrates": 7.7,
+                "protein": 0.7,
+                "fiber": 2
+            },
+            "color": "red",
+            "taste": "sweet",
+            "stock": {
+                "quantity": 120,
+                "unit": "unit"
+            },
+            "price": 1.0,
+            "imageUrl": "https://images.pexels.com/photos/934055/pexels-photo-934055.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        },
+        {
+            "id": 5,
+            "name": "Carrot",
+            "nutritionalValue": {
+                "calories": 41,
+                "fat": 0.2,
+                "carbohydrates": 10,
+                "protein": 1,
+                "fiber": 2.8
+            },
+            "color": "orange",
+            "taste": "sweet",
+            "stock": {
+                "quantity": 80,
+                "unit": "unit"
+            },
+            "price": 0.7
+        },
+        {
+            "id": 6,
+            "name": "Chicken",
+            "nutritionalValue": {
+                "calories": 165,
+                "fat": 3.6,
+                "carbohydrates": 0,
+                "protein": 31,
+                "fiber": 0
+            },
+            "color": "white",
+            "taste": "salty",
+            "stock": {
+                "quantity": 200,
+                "unit": "grams"
+            },
+            "price": 4.5
+        },
+        {
+            "id": 7,
+            "name": "Fish",
+            "nutritionalValue": {
+                "calories": 206,
+                "fat": 12,
+                "carbohydrates": 0,
+                "protein": 22,
+                "fiber": 0
+            },
+            "color": "white",
+            "taste": "salty",
+            "stock": {
+                "quantity": 300,
+                "unit": "grams"
+            },
+            "price": 6.0
+        },
+        {
+            "id": 8,
+            "name": "Spinach",
+            "nutritionalValue": {
+                "calories": 23,
+                "fat": 0.4,
+                "carbohydrates": 3.6,
+                "protein": 2.9,
+                "fiber": 2.2
+            },
+            "color": "green",
+            "taste": "bitter",
+            "stock": {
+                "quantity": 150,
+                "unit": "grams"
+            },
+            "price": 1.5
+        },
+        {
+            "id": 9,
+            "name": "Orange",
+            "nutritionalValue": {
+                "calories": 43,
+                "fat": 0.2,
+                "carbohydrates": 8.2,
+                "protein": 1,
+                "fiber": 2.4
+            },
+            "color": "orange",
+            "taste": "sweet-tangy",
+            "stock": {
+                "quantity": 60,
+                "unit": "unit"
+            },
+            "price": 0.8
+        },
+        {
+            "id": 10,
+            "name": "Potato",
+            "nutritionalValue": {
+                "calories": 77,
+                "fat": 0.1,
+                "carbohydrates": 17,
+                "protein": 2,
+                "fiber": 2.2
+            },
+            "color": "yellow",
+            "taste": "salty",
+            "stock": {
+                "quantity": 25,
+                "unit": "unit"
+            },
+            "price": 0.4
+        },
+        {
+            "id": 11,
+            "name": "Tomato",
+            "nutritionalValue": {
+                "calories": 18,
+                "fat": 0.2,
+                "carbohydrates": 3.9,
+                "protein": 0.9,
+                "fiber": 1.2
+            },
+            "color": "red",
+            "taste": "acidic",
+            "stock": {
+                "quantity": 75,
+                "unit": "unit"
+            },
+            "price": 0.6
+        },
+        {
+            "id": 12,
+            "name": "Lettuce",
+            "nutritionalValue": {
+                "calories": 5,
+                "fat": 0.1,
+                "carbohydrates": 1,
+                "protein": 0.5,
+                "fiber": 0.5
+            },
+            "color": "green",
+            "taste": "mild",
+            "stock": {
+                "quantity": 90,
+                "unit": "unit"
+            },
+            "price": 0.4
+        },
+        {
+            "id": 13,
+            "name": "Onion",
+            "nutritionalValue": {
+                "calories": 40,
+                "fat": 0.1,
+                "carbohydrates": 9.3,
+                "protein": 1.1,
+                "fiber": 1.7
+            },
+            "color": "white",
+            "taste": "spicy",
+            "stock": {
+                "quantity": 40,
+                "unit": "unit"
+            },
+            "price": 0.5
+        },
+        {
+            "id": 14,
+            "name": "Rice",
+            "nutritionalValue": {
+                "calories": 130,
+                "fat": 0.3,
+                "carbohydrates": 28,
+                "protein": 2.7,
+                "fiber": 0.6
+            },
+            "color": "white",
+            "taste": "neutral",
+            "stock": {
+                "quantity": 500,
+                "unit": "grams"
+            },
+            "price": 2.0
+        },
+        {
+            "id": 15,
+            "name": "Beans",
+            "nutritionalValue": {
+                "calories": 130,
+                "fat": 0.5,
+                "carbohydrates": 23,
+                "protein": 7,
+                "fiber": 6
+            },
+            "color": "black",
+            "taste": "neutral",
+            "stock": {
+                "quantity": 300,
+                "unit": "grams"
+            },
+            "price": 1.5
+        },
+        {
+            "id": 16,
+            "name": "Egg",
+            "nutritionalValue": {
+                "calories": 68,
+                "fat": 5,
+                "carbohydrates": 0.6,
+                "protein": 5.5,
+                "fiber": 0
+            },
+            "color": "white",
+            "taste": "neutral",
+            "stock": {
+                "quantity": 60,
+                "unit": "units"
+            },
+            "price": 0.2
+        },
+        {
+            "id": 17,
+            "name": "Raspberry",
+            "nutritionalValue": {
+                "calories": 52,
+                "fat": 0.7,
+                "carbohydrates": 11,
+                "protein": 1.5,
+                "fiber": 6.5
+            },
+            "color": "red",
+            "taste": "sweet",
+            "stock": {
+                "quantity": 50,
+                "unit": "units"
+            },
+            "price": 1.2
+        },
+        {
+            "id": 18,
+            "name": "Bell Pepper",
+            "nutritionalValue": {
+                "calories": 20,
+                "fat": 0.2,
+                "carbohydrates": 4.6,
+                "protein": 0.9,
+                "fiber": 1.5
+            },
+            "color": "red",
+            "taste": "sweet",
+            "stock": {
+                "quantity": 40,
+                "unit": "units"
+            },
+            "price": 1.0
+        },
+        {
+            "id": 19,
+            "name": "Watermelon",
+            "nutritionalValue": {
+                "calories": 30,
+                "fat": 0.2,
+                "carbohydrates": 7.6,
+                "protein": 0.6,
+                "fiber": 0.4
+            },
+            "color": "green",
+            "taste": "sweet",
+            "stock": {
+                "quantity": 15,
+                "unit": "units"
+            },
+            "price": 2.5
+        },
+        {
+            "id": 20,
+            "name": "Turkey",
+            "nutritionalValue": {
+                "calories": 135,
+                "fat": 1,
+                "carbohydrates": 0,
+                "protein": 30,
+                "fiber": 0
+            },
+            "color": "white",
+            "taste": "salty",
+            "stock": {
+                "quantity": 300,
+                "unit": "grams"
+            },
+            "price": 6.0
+        },
+        {
+            "id": 21,
+            "name": "Cherry",
+            "nutritionalValue": {
+                "calories": 50,
+                "fat": 0.3,
+                "carbohydrates": 12,
+                "protein": 1,
+                "fiber": 2
+            },
+            "color": "red",
+            "taste": "sweet",
+            "stock": {
+                "quantity": 40,
+                "unit": "dozen"
+            },
+            "price": 2.5
+        },
+        {
+            "id": 22,
+            "name": "Zucchini",
+            "nutritionalValue": {
+                "calories": 17,
+                "fat": 0.3,
+                "carbohydrates": 3.1,
+                "protein": 1.2,
+                "fiber": 1.1
+            },
+            "color": "green",
+            "taste": "neutral",
+            "stock": {
+                "quantity": 25,
+                "unit": "units"
+            },
+            "price": 1.0
+        },
+        {
+            "id": 23,
+            "name": "Grapes",
+            "nutritionalValue": {
+                "calories": 69,
+                "fat": 0.2,
+                "carbohydrates": 18,
+                "protein": 0.7,
+                "fiber": 0.9
+            },
+            "color": "purple",
+            "taste": "sweet",
+            "stock": {
+                "quantity": 20,
+                "unit": "bunches"
+            },
+            "price": 3.0
+        },
+        {
+            "id": 24,
+            "name": "Cucumber",
+            "nutritionalValue": {
+                "calories": 16,
+                "fat": 0.2,
+                "carbohydrates": 3.6,
+                "protein": 0.7,
+                "fiber": 0.5
+            },
+            "color": "green",
+            "taste": "neutral",
+            "stock": {
+                "quantity": 50,
+                "unit": "units"
+            },
+            "price": 1.2
+        },
+        {
+            "id": 25,
+            "name": "Walnut",
+            "nutritionalValue": {
+                "calories": 185,
+                "fat": 18.5,
+                "carbohydrates": 3.9,
+                "protein": 4.4,
+                "fiber": 2.7
+            },
+            "color": "brown",
+            "taste": "nutty",
+            "stock": {
+                "quantity": 500,
+                "unit": "grams"
+            },
+            "price": 8.0
+        }
+    ]
+}
