@@ -8,6 +8,7 @@ import {
 import { AppStore } from "@/redux/store";
 import { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
+import ProductCard from "./ProductCard/ProductCard";
 
 function Home() {
     const [food, setFood] = useState<FoodItem[]>([]);
@@ -38,8 +39,9 @@ function Home() {
     }, []);
 
     return (
-        <div className=" p-4">
-            <div className="flex flex-wrap  gap-5 items-center w-full">
+        <div className=" p-12">
+            <h1 className="mb-4 font-bold">Supermarket Online</h1>
+            <div className=" w-full  grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5 ">
                 {food.map((item) => (
                     // <p>
                     //     <span>{item.name}</span>
@@ -50,22 +52,20 @@ function Home() {
                     //     </Button>
                     // </p>
 
-                    <div className="flex flex-grow w-72 h-40 max-w-[288px] bg-slate-100 rounded-xl overflow-hidden">
-                        <div className="w-5/12 h-full">
-                            <img
-                                className="h-full  object-cover"
-                                src={item.imageUrl}
-                                alt=""
-                            />
-                        </div>
-                        <div className="w-7/12 h-full">
-                            <h2>{item.name}</h2>
-                            <p>{item.price}</p>
-                            <Button onClick={() => handleRedux(item)}>
-                                Add to Cart
-                            </Button>
-                        </div>
-                    </div>
+                    <ProductCard
+                        key={item.id}
+                        name={item.name}
+                        imageUrl={item.imageUrl}
+                        calories={item.nutritionalValue.calories}
+                        fat={item.nutritionalValue.fat}
+                        carbohydrates={item.nutritionalValue.carbohydrates}
+                        protein={item.nutritionalValue.protein}
+                        fiber={item.nutritionalValue.fiber}
+                        price={item.price}
+                        unit={item.stock.unit}
+                        quantity={item.stock.quantity}
+                        onClick={() => handleRedux(item)}
+                    />
                 ))}
             </div>
 

@@ -92,7 +92,8 @@
                 "quantity": 80,
                 "unit": "unit"
             },
-            "price": 0.7
+            "price": 0.7,
+            "imageUrl": "https://images.pexels.com/photos/143133/pexels-photo-143133.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
         },
         {
             "id": 6,
@@ -110,7 +111,8 @@
                 "quantity": 200,
                 "unit": "grams"
             },
-            "price": 4.5
+            "price": 4.5,
+            "imageUrl": "https://images.pexels.com/photos/616353/pexels-photo-616353.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
         },
         {
             "id": 7,
@@ -128,7 +130,8 @@
                 "quantity": 300,
                 "unit": "grams"
             },
-            "price": 6.0
+            "price": 6.0,
+            "imageUrl": "https://images.pexels.com/photos/2042591/pexels-photo-2042591.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
         },
         {
             "id": 8,
@@ -146,7 +149,8 @@
                 "quantity": 150,
                 "unit": "grams"
             },
-            "price": 1.5
+            "price": 1.5,
+            "imageUrl": "https://images.pexels.com/photos/2325843/pexels-photo-2325843.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
         },
         {
             "id": 9,
@@ -164,7 +168,8 @@
                 "quantity": 60,
                 "unit": "unit"
             },
-            "price": 0.8
+            "price": 0.8,
+            "imageUrl": "https://images.pexels.com/photos/693795/pexels-photo-693795.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
         },
         {
             "id": 10,
@@ -182,7 +187,8 @@
                 "quantity": 25,
                 "unit": "unit"
             },
-            "price": 0.4
+            "price": 0.4,
+            "imageUrl": "https://images.pexels.com/photos/2286776/pexels-photo-2286776.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
         },
         {
             "id": 11,
@@ -200,7 +206,8 @@
                 "quantity": 75,
                 "unit": "unit"
             },
-            "price": 0.6
+            "price": 0.6,
+            "imageUrl": "https://images.pexels.com/photos/533280/pexels-photo-533280.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
         },
         {
             "id": 12,
@@ -218,7 +225,8 @@
                 "quantity": 90,
                 "unit": "unit"
             },
-            "price": 0.4
+            "price": 0.4,
+            "imageUrl": "https://images.pexels.com/photos/2893639/pexels-photo-2893639.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
         },
         {
             "id": 13,
@@ -236,7 +244,8 @@
                 "quantity": 40,
                 "unit": "unit"
             },
-            "price": 0.5
+            "price": 0.5,
+            "imageUrl": "https://images.pexels.com/photos/533342/pexels-photo-533342.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
         },
         {
             "id": 14,
@@ -254,7 +263,8 @@
                 "quantity": 500,
                 "unit": "grams"
             },
-            "price": 2.0
+            "price": 2.0,
+            "imageUrl": "https://images.pexels.com/photos/4187621/pexels-photo-4187621.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
         },
         {
             "id": 15,
