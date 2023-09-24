@@ -18,7 +18,11 @@ function ProductCard({
     return (
         <div className="flex max-w-lg h-48   rounded-xl overflow-hidden border-2 border-gray-200-200">
             <div className="w-5/12 h-full">
-                <img className="h-full  object-cover" src={imageUrl} alt="" />
+                <img
+                    className="h-full w-full object-cover"
+                    src={imageUrl}
+                    alt=""
+                />
             </div>
             <div className="w-7/12 h-full  justify-between flex flex-col p-3">
                 <h2 className="font-bold text-center text-xl">{name}</h2>

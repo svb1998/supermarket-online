@@ -282,7 +282,8 @@
                 "quantity": 300,
                 "unit": "grams"
             },
-            "price": 1.5
+            "price": 1.5,
+            "imageUrl": "https://images.pexels.com/photos/255469/pexels-photo-255469.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
         },
         {
             "id": 16,
@@ -300,7 +301,8 @@
                 "quantity": 60,
                 "unit": "units"
             },
-            "price": 0.2
+            "price": 0.2,
+            "imageUrl": "https://images.pexels.com/photos/162712/egg-white-food-protein-162712.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
         },
         {
             "id": 17,
@@ -318,7 +320,8 @@
                 "quantity": 50,
                 "unit": "units"
             },
-            "price": 1.2
+            "price": 1.2,
+            "imageUrl": "https://images.pexels.com/photos/59999/raspberries-fruits-fruit-berries-59999.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
         },
         {
             "id": 18,
@@ -336,7 +339,8 @@
                 "quantity": 40,
                 "unit": "units"
             },
-            "price": 1.0
+            "price": 1.0,
+            "imageUrl": "https://images.pexels.com/photos/2893635/pexels-photo-2893635.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
         },
         {
             "id": 19,
@@ -354,7 +358,8 @@
                 "quantity": 15,
                 "unit": "units"
             },
-            "price": 2.5
+            "price": 2.5,
+            "imageUrl": "https://images.pexels.com/photos/2288692/pexels-photo-2288692.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
         },
         {
             "id": 20,
@@ -372,7 +377,8 @@
                 "quantity": 300,
                 "unit": "grams"
             },
-            "price": 6.0
+            "price": 6.0,
+            "imageUrl": "https://images.pexels.com/photos/1078781/pexels-photo-1078781.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
         },
         {
             "id": 21,
@@ -390,7 +396,8 @@
                 "quantity": 40,
                 "unit": "dozen"
             },
-            "price": 2.5
+            "price": 2.5,
+            "imageUrl": "https://images.pexels.com/photos/1149021/pexels-photo-1149021.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
         },
         {
             "id": 22,
@@ -408,7 +415,8 @@
                 "quantity": 25,
                 "unit": "units"
             },
-            "price": 1.0
+            "price": 1.0,
+            "imageUrl": "https://images.pexels.com/photos/3375263/pexels-photo-3375263.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
         },
         {
             "id": 23,
@@ -426,7 +434,8 @@
                 "quantity": 20,
                 "unit": "bunches"
             },
-            "price": 3.0
+            "price": 3.0,
+            "imageUrl": "https://images.pexels.com/photos/60021/grapes-wine-fruit-vines-60021.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
         },
         {
             "id": 24,
@@ -444,7 +453,8 @@
                 "quantity": 50,
                 "unit": "units"
             },
-            "price": 1.2
+            "price": 1.2,
+            "imageUrl": "https://images.pexels.com/photos/2329440/pexels-photo-2329440.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
         },
         {
             "id": 25,
@@ -462,7 +472,8 @@
                 "quantity": 500,
                 "unit": "grams"
             },
-            "price": 8.0
+            "price": 8.0,
+            "imageUrl": "https://images.pexels.com/photos/3640631/pexels-photo-3640631.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
         }
     ]
 }
