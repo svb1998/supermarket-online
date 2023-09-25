@@ -1,16 +1,40 @@
+import { FoodItem } from "@/models/food-item";
 import Logo from "../../assets/imgs/logo-dark.png";
 import { Button } from "../ui/button";
 import { Input } from "../ui/input";
 
-function Navbar({ total }) {
+function Navbar({
+    food,
+    filterItems,
+    total,
+}: {
+    food: FoodItem[];
+    filterItems: (foodItems: FoodItem[]) => void;
+    total: number;
+}) {
+    // const [query, setQuery] = useState("");
+
+    const searchItems = (e: React.ChangeEvent<HTMLInputElement>) => {
+        if (!e.target.value) return filterItems(food);
+        else
+            return filterItems(
+                food.filter((item) =>
+                    item.name
+                        .toLowerCase()
+                        .includes(e.target.value.toLowerCase())
+                )
+            );
+    };
+
     return (
-        <div className="px-12  h-20  flex items-center border-b-[1px] border-gray-200 sticky top-0 bg-white justify-between">
-            <div className="w-1/3">
+        <div className=" px-6 sm:px-14 gap-4  h-20 w-full  flex items-center border-b-[1px] border-gray-200 fixed top-0  bg-white justify-between">
+            <div className=" hidden md:block md:w-2/12 lg:w-1/3">
                 <img className="rounded-full h-14" src={Logo} alt="" />
             </div>
-            <div className=" flex p-2 px-4 w-1/3 h-10 border-2  rounded-full items-center justify-between">
+            <div className=" flex p-2 px-4 w-full sm:w-2/3 md:w-6/12 lg:w-1/3 h-10 border-2  rounded-full items-center justify-between">
                 <Input
-                    placeholder="Search"
+                    placeholder="Enter an item..."
+                    onChange={searchItems}
                     className="border-none h-8  focus-visible:ring-transparent focus-visible:border-none"
                 />
                 <svg
@@ -28,7 +52,7 @@ function Navbar({ total }) {
                     />
                 </svg>
             </div>
-            <div className="w-1/3 flex items-center gap-4 justify-end">
+            <div className="w-1/3  items-center gap-4 justify-end hidden sm:flex">
                 <span>Total: {total}€</span>
                 <Button>Go to Cart</Button>
             </div>
