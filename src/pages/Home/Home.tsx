@@ -8,7 +8,7 @@ import {
 import { AppStore } from "@/redux/store";
 import { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import ProductCard from "./ProductCard/ProductCard";
+import ProductCard from "./components/ProductCard/ProductCard";
 import Navbar from "@/components/Navbar/Navbar";
 import ReactPaginate from "react-paginate";
 import { useToast } from "@/components/ui/use-toast";
@@ -105,7 +105,7 @@ function Home() {
                     pageClassName="px-2 hover:bg-gray-200 rounded-lg w-8 "
                     pageLinkClassName="w-22 bg-blue text-gray-800 hover:text-black hover:rounded-lg  "
                     activeClassName=" bg-white rounded-lg border-[1px] border-gray-300 "
-                    activeLinkClassName="text-green-800  "
+                    activeLinkClassName="text-gray-500  "
                     breakLabel="..."
                     nextLabel={<Button className="h-8 w-8"> {">"} </Button>}
                     onPageChange={handlePageClick}

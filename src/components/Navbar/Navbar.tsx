@@ -2,6 +2,7 @@ import { FoodItem } from "@/models/food-item";
 import Logo from "../../assets/imgs/logo-dark.png";
 import { Button } from "../ui/button";
 import { Input } from "../ui/input";
+import { useNavigate } from "react-router-dom";
 
 function Navbar({
     food,
@@ -12,7 +13,7 @@ function Navbar({
     filterItems: (foodItems: FoodItem[]) => void;
     total: number;
 }) {
-    // const [query, setQuery] = useState("");
+    const navigate = useNavigate();
 
     const searchItems = (e: React.ChangeEvent<HTMLInputElement>) => {
         if (!e.target.value) return filterItems(food);
@@ -54,7 +55,7 @@ function Navbar({
             </div>
             <div className="w-1/3  items-center gap-4 justify-end hidden sm:flex">
                 <span>Total: {total}€</span>
-                <Button>Go to Cart</Button>
+                <Button onClick={() => navigate("/cart")}>Go to Cart</Button>
             </div>
         </div>
     );

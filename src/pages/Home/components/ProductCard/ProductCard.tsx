@@ -16,7 +16,7 @@ function ProductCard({
     const productUnitType = (unit) => (unit === "unit" ? "u" : "kg");
 
     return (
-        <div className="flex max-w-lg h-48   rounded-xl overflow-hidden border-2 border-gray-200-200">
+        <div className="flex max-w-lg h-48   rounded-xl overflow-hidden border-2 border-gray-200">
             <div className="w-5/12 h-full">
                 <img
                     className="h-full w-full object-cover"
