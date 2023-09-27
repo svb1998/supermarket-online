@@ -38,10 +38,6 @@ function CartCard({
                         <strong className="text-sm sm:text-xl">
                             {price}€/{productUnitType(unit)}
                         </strong>
-                        {/* <span className="text-[11px] text-red-500">
-                        {quantity}
-                        {{ unit } == "grams" ? { unit } : " units"} left!
-                    </span> */}
                     </div>
                 </div>
                 <div className="flex justify-between items-center  ">

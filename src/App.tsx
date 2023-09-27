@@ -6,6 +6,7 @@ import { Provider } from "react-redux";
 import store from "./redux/store";
 import { Toaster } from "./components/ui/toaster";
 import Cart from "./pages/Cart/Cart";
+import { PrivateRoutes, PublicRoutes } from "./models/routes";
 
 function App() {
     return (
@@ -13,11 +14,19 @@ function App() {
             <Provider store={store}>
                 <BrowserRouter>
                     <Routes>
-                        <Route path="/" element={<Login />}></Route>
-
-                        <Route path="/home" element={<Home />}></Route>
-                        <Route path="/cart" element={<Cart />}></Route>
+                        <Route
+                            path={PublicRoutes.LOGIN}
+                            element={<Login />}
+                        ></Route>
                         <Route path="*" element={<>Not Found...</>}></Route>
+                        <Route
+                            path={PrivateRoutes.HOME}
+                            element={<Home />}
+                        ></Route>
+                        <Route
+                            path={PrivateRoutes.CART}
+                            element={<Cart />}
+                        ></Route>
                     </Routes>
                     <Toaster />
                 </BrowserRouter>
